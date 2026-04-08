@@ -1,0 +1,11 @@
+playsnd.obj
+Zynq_musicPlayer.obj
+cvi.lib
+cvintwrk.lib
+cvistart.lib
+winmm.lib
+kernel32.lib
+user32.lib
+EXE Symbol Module
+Exports Module
+Resource Module

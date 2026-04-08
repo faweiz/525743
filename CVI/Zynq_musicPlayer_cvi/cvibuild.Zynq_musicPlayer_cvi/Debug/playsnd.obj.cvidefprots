@@ -1,0 +1,12 @@
+[CVI_PlaySound]
+Class="Function"
+Prototype="short CVI_PlaySound(char *fileName, short asynchronous);"
+
+[CVI_PlaySoundEx]
+Class="Function"
+Prototype="short CVI_PlaySoundEx(char *fileName, short asynchronous, short loop, short playDefault, short stopCurrentSound);"
+
+[CVI_StopCurrentSound]
+Class="Function"
+Prototype="void CVI_StopCurrentSound();"
+

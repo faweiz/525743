@@ -1,0 +1,15 @@
+verilog xil_defaultlib --include "D:/app/Xilinx/Vivado/2023.1/data/xilinx_vip/include" --include "../../../../Zynq_musicPlayer_FPGA.gen/sources_1/bd/system/ipshared/ec67/hdl" --include "../../../../Zynq_musicPlayer_FPGA.gen/sources_1/bd/system/ipshared/aed8/hdl" \
+"../../../bd/system/ip/system_processing_system7_0_0/sim/system_processing_system7_0_0.v" \
+"../../../bd/system/ip/system_xlconcat_0_0/sim/system_xlconcat_0_0.v" \
+"../../../bd/system/ip/system_xbar_0/sim/system_xbar_0.v" \
+"../../../bd/system/ip/system_xbar_1/sim/system_xbar_1.v" \
+"../../../bd/system/sim/system.v" \
+"../../../bd/system/ip/system_auto_pc_0/sim/system_auto_pc_0.v" \
+"../../../bd/system/ip/system_auto_us_0/sim/system_auto_us_0.v" \
+"../../../bd/system/ip/system_auto_us_1/sim/system_auto_us_1.v" \
+"../../../bd/system/ip/system_auto_pc_1/sim/system_auto_pc_1.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,52 @@
+CCFLAGS = -g ;
+HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\instr"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include\\clang\\3.3"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2017\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2017\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "playsnd.c" = "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi" ;
+LOCATE on "playsnd.h" = "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi" ;
+LOCATE on "Zynq_music.h" = "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi" ;
+LOCATE on "Zynq_musicPlayer.c" = "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi" ;
+LOCATE on "Zynq_musicPlayer.h" = "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi" ;
+Object "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi\\cvibuild.Zynq_musicPlayer_cvi\\Debug\\playsnd.obj" : "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi\\playsnd.c" ;
+FILENUM on "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi\\cvibuild.Zynq_musicPlayer_cvi\\Debug\\playsnd.obj" = 1 ;
+DEFPROTS on "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi\\cvibuild.Zynq_musicPlayer_cvi\\Debug\\playsnd.obj" = "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi\\cvibuild.Zynq_musicPlayer_cvi\\Debug\\playsnd.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi\\cvibuild.Zynq_musicPlayer_cvi\\Debug\\playsnd.obj" = "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi\\cvibuild.Zynq_musicPlayer_cvi\\Debug\\playsnd.obj.out" ;
+PrjObjects += "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi\\cvibuild.Zynq_musicPlayer_cvi\\Debug\\playsnd.obj" ;
+Object "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi\\cvibuild.Zynq_musicPlayer_cvi\\Debug\\Zynq_musicPlayer.obj" : "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi\\Zynq_musicPlayer.c" ;
+FILENUM on "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi\\cvibuild.Zynq_musicPlayer_cvi\\Debug\\Zynq_musicPlayer.obj" = 2 ;
+DEFPROTS on "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi\\cvibuild.Zynq_musicPlayer_cvi\\Debug\\Zynq_musicPlayer.obj" = "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi\\cvibuild.Zynq_musicPlayer_cvi\\Debug\\Zynq_musicPlayer.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi\\cvibuild.Zynq_musicPlayer_cvi\\Debug\\Zynq_musicPlayer.obj" = "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi\\cvibuild.Zynq_musicPlayer_cvi\\Debug\\Zynq_musicPlayer.obj.out" ;
+PrjObjects += "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi\\cvibuild.Zynq_musicPlayer_cvi\\Debug\\Zynq_musicPlayer.obj" ;
+Object "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi\\cvibuild.Zynq_musicPlayer_cvi\\Debug\\resources.res" : "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi\\cvibuild.Zynq_musicPlayer_cvi\\Debug\\resources.in.rc" ;
+Depends "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi\\cvibuild.Zynq_musicPlayer_cvi\\Debug\\resources.res" : "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi\\cvibuild.Zynq_musicPlayer_cvi\\Debug\\manifest.xml" ;
+MainFromObjects "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi\\cvibuild.Zynq_musicPlayer_cvi\\Debug\\Zynq_musicPlayer_cvi.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi\\cvibuild.Zynq_musicPlayer_cvi\\Debug\\Zynq_musicPlayer_cvi.exe" : "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi\\cvibuild.Zynq_musicPlayer_cvi\\Debug\\link_options.txt" ;
+Depends "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi\\cvibuild.Zynq_musicPlayer_cvi\\Debug\\Zynq_musicPlayer_cvi.exe" : "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi\\cvibuild.Zynq_musicPlayer_cvi\\Debug\\resources.res" ;
+Depends all : "c:\\Users\\fawei\\Downloads\\z20\\525743\\CVI\\Zynq_musicPlayer_cvi\\cvibuild.Zynq_musicPlayer_cvi\\Debug\\Zynq_musicPlayer_cvi.exe" ;

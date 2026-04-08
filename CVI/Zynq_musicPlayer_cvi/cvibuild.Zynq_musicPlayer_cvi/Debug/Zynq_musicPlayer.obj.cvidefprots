@@ -1,0 +1,108 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[ClientTCPCB]
+Class="Function"
+Prototype="int ClientTCPCB(unsigned int handle, int event, int error, void *callbackData);"
+
+[TransmitCB]
+Class="Function"
+Prototype="int TransmitCB(int panelHandle, int controlID, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ClearScreenCB]
+Class="Function"
+Prototype="int ClearScreenCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[MainPanelCB]
+Class="Function"
+Prototype="int MainPanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Quit]
+Class="Function"
+Prototype="int Quit(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[PS_LED_BTN_CB]
+Class="Function"
+Prototype="int PS_LED_BTN_CB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[PlayStopBtnCB]
+Class="Function"
+Prototype="int PlayStopBtnCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[VolUpBtnCB]
+Class="Function"
+Prototype="int VolUpBtnCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[VolDownBtnCB]
+Class="Function"
+Prototype="int VolDownBtnCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[VolSliderCB]
+Class="Function"
+Prototype="int VolSliderCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[RequestStatusCB]
+Class="Function"
+Prototype="int RequestStatusCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[get_value]
+Class="Function"
+Prototype="int get_value(const char *buf, const char *key, char delimiter, parse_type_t type, void *out_value);"
+
+[TCPReceive_StatusUpdate]
+Class="Function"
+Prototype="int TCPReceive_StatusUpdate(char *receiveBuf);"
+
+[SoundListCallback]
+Class="Function"
+Prototype="int SoundListCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[PlayAll]
+Class="Function"
+Prototype="int PlayAll(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[PlayOne]
+Class="Function"
+Prototype="int PlayOne(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[GetCurrentlySelectedFile]
+Class="Function"
+Prototype="int GetCurrentlySelectedFile(int panel, int listbox, char *filename);"
+
+[GetPlayOptions]
+Class="Function"
+Prototype="int GetPlayOptions(int panel, int *asynchronous, int *loop);"
+
+[PlaySingleSound]
+Class="Function"
+Prototype="void PlaySingleSound(int panel, int listbox);"
+
+[PlayAllSounds]
+Class="Function"
+Prototype="void PlayAllSounds(int panel, int listbox);"
+
+[Stop]
+Class="Function"
+Prototype="int Stop(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ChangeDir]
+Class="Function"
+Prototype="int ChangeDir(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[FillListBoxWithWavsInDir]
+Class="Function"
+Prototype="int FillListBoxWithWavsInDir(int panel, int listbox, char *directory);"
+
+[GetInitialDirectory]
+Class="Function"
+Prototype="void GetInitialDirectory(char *directory);"
+
+[DirectoryExists]
+Class="Function"
+Prototype="int DirectoryExists(char *directory);"
+
+[PlayMusicBtnCB]
+Class="Function"
+Prototype="int PlayMusicBtnCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
