@@ -1,87 +1,16 @@
-12:28:49 **** Incremental Build of project system_wrapper ****
-buildplatform.bat 50061 system_wrapper no_domain_build 
-XSDB Server Channel: tcfchan#32
-12:28:53 **** Build of configuration Debug for project Zynq_musicPlayer_vitis ****
+Nothing to build in platform 'system_wrapper'
+
+19:10:01 **** Incremental Build of configuration Debug for project Zynq_musicPlayer_vitis ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
 ' '
 make --no-print-directory main-build
-'Building file: ../src/lwip/lwip_example_platform_zynq.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -IC:/Users/fawei/Downloads/z20/525743/FPGA/Zynq_musicPlayer_FPGA/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\SD" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\lwip" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\dma_bd" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\i2c" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\audio" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\FTP" -c -fmessage-length=0 -MT"src/lwip/lwip_example_platform_zynq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/lwip_example_platform_zynq.d" -MT"src/lwip/lwip_example_platform_zynq.o" -o "src/lwip/lwip_example_platform_zynq.o" "../src/lwip/lwip_example_platform_zynq.c"
-'Finished building: ../src/lwip/lwip_example_platform_zynq.c'
-' '
-'Building file: ../src/lwip/lwip_example_tftp_platform_fs.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -IC:/Users/fawei/Downloads/z20/525743/FPGA/Zynq_musicPlayer_FPGA/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\SD" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\lwip" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\dma_bd" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\i2c" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\audio" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\FTP" -c -fmessage-length=0 -MT"src/lwip/lwip_example_tftp_platform_fs.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/lwip_example_tftp_platform_fs.d" -MT"src/lwip/lwip_example_tftp_platform_fs.o" -o "src/lwip/lwip_example_tftp_platform_fs.o" "../src/lwip/lwip_example_tftp_platform_fs.c"
-'Finished building: ../src/lwip/lwip_example_tftp_platform_fs.c'
-' '
-'Building file: ../src/lwip/lwip_example_tftp_server.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -IC:/Users/fawei/Downloads/z20/525743/FPGA/Zynq_musicPlayer_FPGA/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\SD" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\lwip" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\dma_bd" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\i2c" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\audio" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\FTP" -c -fmessage-length=0 -MT"src/lwip/lwip_example_tftp_server.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/lwip_example_tftp_server.d" -MT"src/lwip/lwip_example_tftp_server.o" -o "src/lwip/lwip_example_tftp_server.o" "../src/lwip/lwip_example_tftp_server.c"
-'Finished building: ../src/lwip/lwip_example_tftp_server.c'
-' '
-'Building file: ../src/lwip/tcp_control.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -IC:/Users/fawei/Downloads/z20/525743/FPGA/Zynq_musicPlayer_FPGA/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\SD" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\lwip" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\dma_bd" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\i2c" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\audio" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\FTP" -c -fmessage-length=0 -MT"src/lwip/tcp_control.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/tcp_control.d" -MT"src/lwip/tcp_control.o" -o "src/lwip/tcp_control.o" "../src/lwip/tcp_control.c"
-'Finished building: ../src/lwip/tcp_control.c'
-' '
-'Building file: ../src/lwip/udp_control.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -IC:/Users/fawei/Downloads/z20/525743/FPGA/Zynq_musicPlayer_FPGA/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\SD" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\lwip" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\dma_bd" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\i2c" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\audio" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\FTP" -c -fmessage-length=0 -MT"src/lwip/udp_control.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/udp_control.d" -MT"src/lwip/udp_control.o" -o "src/lwip/udp_control.o" "../src/lwip/udp_control.c"
-'Finished building: ../src/lwip/udp_control.c'
-' '
-'Building file: ../src/i2c/PS_i2c.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -IC:/Users/fawei/Downloads/z20/525743/FPGA/Zynq_musicPlayer_FPGA/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\SD" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\lwip" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\dma_bd" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\i2c" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\audio" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\FTP" -c -fmessage-length=0 -MT"src/i2c/PS_i2c.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/i2c/PS_i2c.d" -MT"src/i2c/PS_i2c.o" -o "src/i2c/PS_i2c.o" "../src/i2c/PS_i2c.c"
-'Finished building: ../src/i2c/PS_i2c.c'
-' '
-'Building file: ../src/dma_bd/dma_bd.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -IC:/Users/fawei/Downloads/z20/525743/FPGA/Zynq_musicPlayer_FPGA/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\SD" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\lwip" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\dma_bd" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\i2c" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\audio" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\FTP" -c -fmessage-length=0 -MT"src/dma_bd/dma_bd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/dma_bd/dma_bd.d" -MT"src/dma_bd/dma_bd.o" -o "src/dma_bd/dma_bd.o" "../src/dma_bd/dma_bd.c"
-'Finished building: ../src/dma_bd/dma_bd.c'
-' '
-'Building file: ../src/audio/audio.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -IC:/Users/fawei/Downloads/z20/525743/FPGA/Zynq_musicPlayer_FPGA/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\SD" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\lwip" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\dma_bd" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\i2c" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\audio" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\FTP" -c -fmessage-length=0 -MT"src/audio/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
-'Finished building: ../src/audio/audio.c'
-' '
-'Building file: ../src/audio/dma_ctrl.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -IC:/Users/fawei/Downloads/z20/525743/FPGA/Zynq_musicPlayer_FPGA/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\SD" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\lwip" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\dma_bd" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\i2c" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\audio" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\FTP" -c -fmessage-length=0 -MT"src/audio/dma_ctrl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/audio/dma_ctrl.d" -MT"src/audio/dma_ctrl.o" -o "src/audio/dma_ctrl.o" "../src/audio/dma_ctrl.c"
-'Finished building: ../src/audio/dma_ctrl.c'
-' '
-'Building file: ../src/SD/SD.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -IC:/Users/fawei/Downloads/z20/525743/FPGA/Zynq_musicPlayer_FPGA/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\SD" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\lwip" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\dma_bd" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\i2c" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\audio" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\FTP" -c -fmessage-length=0 -MT"src/SD/SD.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/SD/SD.d" -MT"src/SD/SD.o" -o "src/SD/SD.o" "../src/SD/SD.c"
-'Finished building: ../src/SD/SD.c'
-' '
-'Building file: ../src/FTP/ftpd.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -IC:/Users/fawei/Downloads/z20/525743/FPGA/Zynq_musicPlayer_FPGA/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\SD" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\lwip" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\dma_bd" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\i2c" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\audio" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\FTP" -c -fmessage-length=0 -MT"src/FTP/ftpd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/FTP/ftpd.d" -MT"src/FTP/ftpd.o" -o "src/FTP/ftpd.o" "../src/FTP/ftpd.c"
-'Finished building: ../src/FTP/ftpd.c'
-' '
-'Building file: ../src/main.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -IC:/Users/fawei/Downloads/z20/525743/FPGA/Zynq_musicPlayer_FPGA/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\SD" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\lwip" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\dma_bd" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\i2c" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\audio" -I"C:\Users\fawei\Downloads\z20\525743\FPGA\Zynq_musicPlayer_FPGA\vitis\Zynq_musicPlayer_vitis\src\FTP" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
-'Finished building: ../src/main.c'
-' '
-'Building target: Zynq_musicPlayer_vitis.elf'
-'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/fawei/Downloads/z20/525743/FPGA/Zynq_musicPlayer_FPGA/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bsplib/lib -o "Zynq_musicPlayer_vitis.elf"  ./src/lwip/lwip_example_platform_zynq.o ./src/lwip/lwip_example_tftp_platform_fs.o ./src/lwip/lwip_example_tftp_server.o ./src/lwip/tcp_control.o ./src/lwip/udp_control.o  ./src/i2c/PS_i2c.o  ./src/dma_bd/dma_bd.o  ./src/audio/audio.o ./src/audio/dma_ctrl.o  ./src/SD/SD.o  ./src/FTP/ftpd.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
-'Finished building target: Zynq_musicPlayer_vitis.elf'
-' '
-'Invoking: ARM v7 Print Size'
-arm-none-eabi-size Zynq_musicPlayer_vitis.elf  |tee "Zynq_musicPlayer_vitis.elf.size"
-   text	   data	    bss	    dec	    hex	filename
- 271248	   3908	435233552	435508708	19f555e4	Zynq_musicPlayer_vitis.elf
-'Finished building: Zynq_musicPlayer_vitis.elf.size'
-' '
-12:28:59 **** Build of configuration Debug for project Zynq_musicPlayer_vitis_system ****
+make[1]: Nothing to be done for 'main-build'.
+19:10:02 **** Incremental Build of configuration Debug for project Zynq_musicPlayer_vitis_system ****
 make all 
 Generating bif file for the system project
-generate_system_bif.bat 50061 C:/Users/fawei/Downloads/z20/525743/FPGA/Zynq_musicPlayer_FPGA/vitis/system_wrapper/export/system_wrapper/system_wrapper.xpfm standalone_ps7_cortexa9_0 C:/Users/fawei/Downloads/z20/525743/FPGA/Zynq_musicPlayer_FPGA/vitis/Zynq_musicPlayer_vitis_system/Debug/system.bif
+generate_system_bif.bat 59162 C:/Users/fawei/Downloads/z20/525743/FPGA/Zynq_musicPlayer_FPGA/vitis/system_wrapper/export/system_wrapper/system_wrapper.xpfm standalone_ps7_cortexa9_0 C:/Users/fawei/Downloads/z20/525743/FPGA/Zynq_musicPlayer_FPGA/vitis/Zynq_musicPlayer_vitis_system/Debug/system.bif
 sdcard_gen --xpfm C:/Users/fawei/Downloads/z20/525743/FPGA/Zynq_musicPlayer_FPGA/vitis/system_wrapper/export/system_wrapper/system_wrapper.xpfm --sys_config system_wrapper --bif C:/Users/fawei/Downloads/z20/525743/FPGA/Zynq_musicPlayer_FPGA/vitis/Zynq_musicPlayer_vitis_system/Debug/system.bif --bitstream C:/Users/fawei/Downloads/z20/525743/FPGA/Zynq_musicPlayer_FPGA/vitis/Zynq_musicPlayer_vitis/_ide/bitstream/system_wrapper.bit --elf C:/Users/fawei/Downloads/z20/525743/FPGA/Zynq_musicPlayer_FPGA/vitis/Zynq_musicPlayer_vitis/Debug/Zynq_musicPlayer_vitis.elf,ps7_cortexa9_0
 creating BOOT.BIN using C:/Users/fawei/Downloads/z20/525743/FPGA/Zynq_musicPlayer_FPGA/vitis/Zynq_musicPlayer_vitis/_ide/bitstream/system_wrapper.bit
 Running D:/app/Xilinx/Vitis/2023.1/bin/bootgen  -image C:/Users/fawei/Downloads/z20/525743/FPGA/Zynq_musicPlayer_FPGA/vitis/Zynq_musicPlayer_vitis_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN

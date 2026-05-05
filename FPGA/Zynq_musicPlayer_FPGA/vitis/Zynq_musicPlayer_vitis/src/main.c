@@ -155,7 +155,7 @@ static ButtonStates_t btn = {
 };
 
 // Music from CVI
-char g_current_music_file[64] = "1.wav";  /* Default file */
+char g_current_music_file[64] = "test audio.wav";  /* Default file */
 int g_new_file_available = 0;  /* Flag to indicate new file uploaded */
 
 /* ========================================================================= */
@@ -690,13 +690,13 @@ int main(void)
     }
 
     /* Load WAV file from SD card */
-    xil_printf("[INFO] Loading audio.wav...\r\n");
-    if (SD_LoadFile("0:/audio.wav") == XST_SUCCESS) {
+    xil_printf("[INFO] Loading test audio.wav...\r\n");
+    if (SD_LoadFile("0:/test audio.wav") == XST_SUCCESS) {
         xil_printf("[INFO] Loaded audio.wav successfully\r\n");
-        strcpy(g_current_music_file, "audio.wav");
+        strcpy(g_current_music_file, "test audio.wav");
     } else {
-    	xil_printf("[INFO] Loading 1.wav...\r\n");
-    	SD_LoadFile("0:/1.wav");
+    	xil_printf("[INFO] Loading Careless Whisper.wav...\r\n");
+    	SD_LoadFile("0:/Careless Whisper.wav");
     }
 
     /* Flush cache for DMA */

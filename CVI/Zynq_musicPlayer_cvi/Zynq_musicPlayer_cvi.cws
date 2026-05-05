@@ -13,11 +13,13 @@ VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
 Number of Projects = 1
 Active Project = 1
 Project 0001 = "Zynq_musicPlayer_cvi.prj"
-Drag Bar Left = 178
-Window Top = 31
-Window Left = 1
-Window Bottom = 1391
-Window Right = 1719
+Project 0001 Folder Library Files Collapsed = True
+Project 0001 FolderId 0 Collapsed = True
+Drag Bar Left = 122
+Window Top = 135
+Window Left = 3441
+Window Bottom = 1135
+Window Right = 4399
 Maximized = False
 Maximized Children = True
 Max32 Number Of Errors = 20
@@ -31,9 +33,9 @@ Save Changes Before Compiling = "Always"
 Hide Windows = False
 Break At First Statement = False
 Sort Type = "File Name"
-Number of Opened Files = 4
+Number of Opened Files = 3
 Window Confinement Region Enabled = True
-MainColumnWidth = 161
+MainColumnWidth = 105
 FileDateColumnWidth = 70
 FileSizeColumnWidth = 70
 
@@ -47,36 +49,20 @@ Batch Build Release = False
 Batch Build Debug = False
 
 [File 0001]
-Path = "/c/Users/fawei/Downloads/z20/525743/CVI/Zynq_musicPlayer_cvi/WinMM.Lib"
-File Type = "Library"
-Disk Date = 3459973348
-In Projects = "1,"
-
-[File 0002]
 Path = "/c/Users/fawei/Downloads/z20/525743/CVI/Zynq_musicPlayer_cvi/Zynq_musicPlayer.c"
 File Type = "CSource"
-Disk Date = 3858510616
+Disk Date = 3860780623
 In Projects = "1,"
 Window Top = 64
 Window Left = 26
 Window Z-Order = 1
-Source Window State = "1,69,69,69,30,72,72,0,0,145,0,24,0,0,0,44,57,0,77,108,531,895,1,11,"
+Source Window State = "1,55,55,55,30,47,47,0,3,75,0,24,0,0,0,31,39,0,55,30,531,895,1,11,"
 
-[File 0003]
-Path = "/c/Users/fawei/Downloads/z20/525743/CVI/Zynq_musicPlayer_cvi/Zynq_musicPlayer.h"
-File Type = "Include"
-Disk Date = 3858506585
-In Projects = "1,"
-Window Top = 126
-Window Left = 58
-Window Z-Order = 3
-Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,0,0,0,0,531,895,1,0,"
-
-[File 0004]
+[File 0002]
 Path Line0001 = "/c/Users/fawei/Downloads/z20/525743/CVI/Zynq_musicPlayer_cvi/Zynq_musicPlayer.ui"
 Path Line0002 = "r"
 File Type = "User Interface Resource"
-Disk Date = 3858506585
+Disk Date = 3860432982
 In Projects = "1,"
 Window Top = 33
 Window Left = 10
@@ -84,36 +70,59 @@ Window Height = 531
 Window Width = 895
 Window Z-Order = 2
 
-[File 0005]
-Path = "/c/Users/fawei/Downloads/z20/525743/CVI/Zynq_musicPlayer_cvi/Zynq_music.h"
+[File 0003]
+Path = "/c/Program Files (x86)/National Instruments/CVI2017/include/userint.h"
 File Type = "Include"
-Disk Date = 3858504155
-In Projects = "1,"
-Window Top = 95
-Window Left = 42
-Window Z-Order = 4
-Source Window State = "1,72,72,72,16,27,27,0,0,80,0,0,0,0,0,25,6,0,72,32,531,895,1,0,"
+Disk Date = 3573612000
+In Projects = ""
+Window Top = 33
+Window Left = 10
+Window Z-Order = 3
+Source Window State = "1,31,31,31,8,24,24,0,3,135,0,0,0,0,0,25,19,0,31,8,531,1445,1,0,"
 
-[File 0006]
+[File 0004]
+Path = "/c/Users/fawei/Downloads/z20/525743/CVI/Zynq_musicPlayer_cvi/WinMM.Lib"
+File Type = "Library"
+Disk Date = 3459973348
+In Projects = "1,"
+
+[File 0005]
 Path = "/c/Users/fawei/Downloads/z20/525743/CVI/Zynq_musicPlayer_cvi/playsnd.c"
 File Type = "CSource"
 Disk Date = 3573612000
 In Projects = "1,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
-[File 0007]
+[File 0006]
 Path = "/c/Users/fawei/Downloads/z20/525743/CVI/Zynq_musicPlayer_cvi/playsnd.h"
 File Type = "Include"
 Disk Date = 3573612000
 In Projects = "1,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
+[File 0007]
+Path = "/c/Users/fawei/Downloads/z20/525743/CVI/Zynq_musicPlayer_cvi/Zynq_music.h"
+File Type = "Include"
+Disk Date = 3858504155
+In Projects = "1,"
+Window Top = 95
+Window Left = 42
+Source Window State = "1,72,72,72,16,27,27,0,0,0,0,0,0,0,0,0,6,0,72,32,531,895,1,0,"
+
+[File 0008]
+Path = "/c/Users/fawei/Downloads/z20/525743/CVI/Zynq_musicPlayer_cvi/Zynq_musicPlayer.h"
+File Type = "Include"
+Disk Date = 3860432982
+In Projects = "1,"
+Window Top = 126
+Window Left = 58
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,531,895,1,0,"
+
 [Tab Order]
 Tab 0001 = "/c/Users/fawei/Downloads/z20/525743/CVI/Zynq_musicPlayer_cvi/Zynq_musicPlayer.c"
-Tab 0002 = "/c/Users/fawei/Downloads/z20/525743/CVI/Zynq_musicPlayer_cvi/Zynq_music.h"
-Tab 0003 Line0001 = "/c/Users/fawei/Downloads/z20/525743/CVI/Zynq_musicPlayer_cvi/Zynq_musicPlayer.ui"
-Tab 0003 Line0002 = "r"
-Tab 0004 = "/c/Users/fawei/Downloads/z20/525743/CVI/Zynq_musicPlayer_cvi/Zynq_musicPlayer.h"
+Tab 0002 Line0001 = "/c/Users/fawei/Downloads/z20/525743/CVI/Zynq_musicPlayer_cvi/Zynq_musicPlayer.ui"
+Tab 0002 Line0002 = "r"
+Tab 0003 = "/c/Program Files (x86)/National Instruments/CVI2017/include/userint.h"
 
 [Default Build Config 0001 Debug]
 Generate Browse Info = True

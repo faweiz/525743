@@ -86,3 +86,11 @@ platform generate
 bsp reload
 bsp reload
 platform generate -domains 
+platform active {system_wrapper}
+platform config -updatehw {C:/Users/fawei/Downloads/z20/525743/FPGA/Zynq_musicPlayer_FPGA/system_wrapper.xsa}
+platform clean
+platform clean
+platform generate
+platform clean
+platform config -updatehw {C:/Users/fawei/Downloads/z20/525743/FPGA/Zynq_musicPlayer_FPGA/system_wrapper.xsa}
+platform generate

@@ -1,9 +1,9 @@
 //==============================================================================
 //
 // Title:		Zynq_musicPlayer.c
-// Purpose:		A short description of the implementation.
+// Purpose:		ZYNQ Music Player Control By LabWindows/CVI over Ethernet
 //
-// Created on:	2/14/2026 at 11:56:51 AM by fawei zhang.
+// Created on:	3/14/2026 at 11:56:51 AM by fawei zhang.
 // Copyright:	personal. All Rights Reserved.
 //
 //==============================================================================
@@ -53,7 +53,7 @@
 /*---------------------------------------------------------------------------*/
 #define tcpChk(f) if ((g_TCPError=(f)) < 0) {ReportTCPError(); goto Done;} else
 #define TCP_CONTROL_PORT       5002
-#define TCP_CONTROL_IP         "192.168.68.44"
+#define TCP_CONTROL_IP         "192.168.68.11"
 //#define MAX_PATHNAME_LEN       256
 //#define MAX_FILENAME_LEN       128
 #define TRUE    1
@@ -1121,7 +1121,7 @@ int CVICALLBACK PlayMusicBtnCB(int panel, int control, int event,
 {
     char localFile[MAX_PATHNAME_LEN] = {0};
     char remoteFile[MAX_PATHNAME_LEN] = "music.wav";
-	char msg[MAX_PATHNAME_LEN] = {0};
+	char msg[1000] = {0};
 	int passiveMode = 1,  /* Use passive mode for better firewall compatibility */
     	ftp_handle,
         ftpResult,

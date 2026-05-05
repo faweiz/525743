@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_V09HkTNbEfGzMtHf8ojVzQ" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_V09HkjNbEfGzMtHf8ojVzQ" bindingContexts="_V09HmzNbEfGzMtHf8ojVzQ">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.xilinx.sdx.scw.ui.editor.ScwEditor&quot; name=&quot;platform.spr&quot; tooltip=&quot;system_wrapper/platform.spr&quot;>&#xD;&#xA;&lt;persistable path=&quot;/system_wrapper/platform.spr&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;tcp.c&quot; tooltip=&quot;system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/ps7_cortexa9_0/libsrc/lwip213_v1_0/src/lwip-2.1.3/src/core/tcp.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/ps7_cortexa9_0/libsrc/lwip213_v1_0/src/lwip-2.1.3/src/core/tcp.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;lwip_example_tftp_platform_fs.c&quot; tooltip=&quot;Zynq_musicPlayer_vitis/src/lwip/lwip_example_tftp_platform_fs.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zynq_musicPlayer_vitis/src/lwip/lwip_example_tftp_platform_fs.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;ff.h&quot; tooltip=&quot;system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/ff.h&quot;>&#xD;&#xA;&lt;persistable path=&quot;/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/ff.h&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;dma_bd.h&quot; tooltip=&quot;Zynq_musicPlayer_vitis/src/dma_bd/dma_bd.h&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zynq_musicPlayer_vitis/src/dma_bd/dma_bd.h&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;dma_ctrl.c&quot; tooltip=&quot;Zynq_musicPlayer_vitis/src/audio/dma_ctrl.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zynq_musicPlayer_vitis/src/audio/dma_ctrl.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;ftpd.c&quot; tooltip=&quot;Zynq_musicPlayer_vitis/src/FTP/ftpd.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zynq_musicPlayer_vitis/src/FTP/ftpd.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;dma_bd.c&quot; tooltip=&quot;Zynq_musicPlayer_vitis/src/dma_bd/dma_bd.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zynq_musicPlayer_vitis/src/dma_bd/dma_bd.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;xadapter.c&quot; tooltip=&quot;system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/ps7_cortexa9_0/libsrc/lwip213_v1_0/src/contrib/ports/xilinx/netif/xadapter.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/ps7_cortexa9_0/libsrc/lwip213_v1_0/src/contrib/ports/xilinx/netif/xadapter.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;dma_ctrl.h&quot; tooltip=&quot;Zynq_musicPlayer_vitis/src/audio/dma_ctrl.h&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zynq_musicPlayer_vitis/src/audio/dma_ctrl.h&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;tcp_control.c&quot; tooltip=&quot;Zynq_musicPlayer_vitis/src/lwip/tcp_control.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zynq_musicPlayer_vitis/src/lwip/tcp_control.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; tooltip=&quot;Zynq_musicPlayer_vitis/src/main.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zynq_musicPlayer_vitis/src/main.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.xilinx.sdx.ui.settingseditor&quot; name=&quot;Zynq_musicPlayer_vitis.prj&quot; tooltip=&quot;Zynq_musicPlayer_vitis/Zynq_musicPlayer_vitis.prj&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zynq_musicPlayer_vitis/Zynq_musicPlayer_vitis.prj&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;audio.c&quot; tooltip=&quot;Zynq_musicPlayer_vitis/src/audio/audio.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zynq_musicPlayer_vitis/src/audio/audio.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; tooltip=&quot;Zynq_musicPlayer_vitis/src/main.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zynq_musicPlayer_vitis/src/main.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.xilinx.sdx.scw.ui.editor.ScwEditor&quot; name=&quot;platform.spr&quot; tooltip=&quot;system_wrapper/platform.spr&quot;>&#xD;&#xA;&lt;persistable path=&quot;/system_wrapper/platform.spr&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;tcp.c&quot; tooltip=&quot;system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/ps7_cortexa9_0/libsrc/lwip213_v1_0/src/lwip-2.1.3/src/core/tcp.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/ps7_cortexa9_0/libsrc/lwip213_v1_0/src/lwip-2.1.3/src/core/tcp.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;lwip_example_tftp_platform_fs.c&quot; tooltip=&quot;Zynq_musicPlayer_vitis/src/lwip/lwip_example_tftp_platform_fs.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zynq_musicPlayer_vitis/src/lwip/lwip_example_tftp_platform_fs.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;ff.h&quot; tooltip=&quot;system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/ff.h&quot;>&#xD;&#xA;&lt;persistable path=&quot;/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/ff.h&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;dma_bd.h&quot; tooltip=&quot;Zynq_musicPlayer_vitis/src/dma_bd/dma_bd.h&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zynq_musicPlayer_vitis/src/dma_bd/dma_bd.h&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;dma_ctrl.c&quot; tooltip=&quot;Zynq_musicPlayer_vitis/src/audio/dma_ctrl.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zynq_musicPlayer_vitis/src/audio/dma_ctrl.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;ftpd.c&quot; tooltip=&quot;Zynq_musicPlayer_vitis/src/FTP/ftpd.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zynq_musicPlayer_vitis/src/FTP/ftpd.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;dma_bd.c&quot; tooltip=&quot;Zynq_musicPlayer_vitis/src/dma_bd/dma_bd.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zynq_musicPlayer_vitis/src/dma_bd/dma_bd.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;xadapter.c&quot; tooltip=&quot;system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/ps7_cortexa9_0/libsrc/lwip213_v1_0/src/contrib/ports/xilinx/netif/xadapter.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/ps7_cortexa9_0/libsrc/lwip213_v1_0/src/contrib/ports/xilinx/netif/xadapter.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;dma_ctrl.h&quot; tooltip=&quot;Zynq_musicPlayer_vitis/src/audio/dma_ctrl.h&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zynq_musicPlayer_vitis/src/audio/dma_ctrl.h&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;tcp_control.c&quot; tooltip=&quot;Zynq_musicPlayer_vitis/src/lwip/tcp_control.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zynq_musicPlayer_vitis/src/lwip/tcp_control.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.xilinx.sdx.ui.settingseditor&quot; name=&quot;Zynq_musicPlayer_vitis.prj&quot; tooltip=&quot;Zynq_musicPlayer_vitis/Zynq_musicPlayer_vitis.prj&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zynq_musicPlayer_vitis/Zynq_musicPlayer_vitis.prj&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_V09HkjNbEfGzMtHf8ojVzQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_V_MoszNbEfGzMtHf8ojVzQ" x="1713" y="0" width="1734" height="1399">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_V09HkjNbEfGzMtHf8ojVzQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_V_MoszNbEfGzMtHf8ojVzQ" x="4393" y="104" width="974" height="1039">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -39,23 +39,22 @@
           <tags>persp.newWizSC:com.xilinx.sdx.npw.revisedKernelWizard</tags>
           <tags>persp.newWizSC:com.xilinx.sdx.npw.revisedPlatformWizard</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_V_QTETNbEfGzMtHf8ojVzQ" selectedElement="_V_QTFzNbEfGzMtHf8ojVzQ" horizontal="true">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_V_QTEjNbEfGzMtHf8ojVzQ" containerData="1846" selectedElement="_V_QTEzNbEfGzMtHf8ojVzQ">
-              <children xsi:type="basic:PartStack" xmi:id="_V_QTEzNbEfGzMtHf8ojVzQ" elementId="com.xilinx.ide.projectExplorerMStack" containerData="5000" selectedElement="_V_QTFDNbEfGzMtHf8ojVzQ">
-                <tags>active</tags>
+            <children xsi:type="basic:PartSashContainer" xmi:id="_V_QTEjNbEfGzMtHf8ojVzQ" containerData="1408" selectedElement="_V_QTEzNbEfGzMtHf8ojVzQ">
+              <children xsi:type="basic:PartStack" xmi:id="_V_QTEzNbEfGzMtHf8ojVzQ" elementId="com.xilinx.ide.projectExplorerMStack" containerData="4380" selectedElement="_V_QTFDNbEfGzMtHf8ojVzQ">
                 <children xsi:type="advanced:Placeholder" xmi:id="_V_QTFDNbEfGzMtHf8ojVzQ" elementId="com.xilinx.ide.projectExplorer" ref="_V_KzgDNbEfGzMtHf8ojVzQ" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:Vitis</tags>
                 </children>
               </children>
-              <children xsi:type="basic:PartStack" xmi:id="_V_QTFTNbEfGzMtHf8ojVzQ" elementId="com.xilinx.sdx.assistant.assistantViewMStack" containerData="5000" selectedElement="_V_QTFjNbEfGzMtHf8ojVzQ">
+              <children xsi:type="basic:PartStack" xmi:id="_V_QTFTNbEfGzMtHf8ojVzQ" elementId="com.xilinx.sdx.assistant.assistantViewMStack" containerData="5620" selectedElement="_V_QTFjNbEfGzMtHf8ojVzQ">
                 <children xsi:type="advanced:Placeholder" xmi:id="_V_QTFjNbEfGzMtHf8ojVzQ" elementId="com.xilinx.sdx.assistant.assistantView" ref="_V_LakDNbEfGzMtHf8ojVzQ" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:Vitis</tags>
                 </children>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_V_QTFzNbEfGzMtHf8ojVzQ" containerData="8154" selectedElement="_V_QTHDNbEfGzMtHf8ojVzQ">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_V_QTGDNbEfGzMtHf8ojVzQ" containerData="4961" selectedElement="_V_QTGTNbEfGzMtHf8ojVzQ" horizontal="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_V_QTFzNbEfGzMtHf8ojVzQ" containerData="8592" selectedElement="_V_QTHDNbEfGzMtHf8ojVzQ">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_V_QTGDNbEfGzMtHf8ojVzQ" containerData="4391" selectedElement="_V_QTGTNbEfGzMtHf8ojVzQ" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_V_QTGTNbEfGzMtHf8ojVzQ" elementId="org.eclipse.ui.editorss" containerData="8000" ref="_V_FT8DNbEfGzMtHf8ojVzQ"/>
                 <children xsi:type="basic:PartStack" xmi:id="_V_QTGjNbEfGzMtHf8ojVzQ" elementId="org.eclipse.ui.views.ContentOutlineMStack" containerData="2000" selectedElement="_V_QTGzNbEfGzMtHf8ojVzQ">
                   <children xsi:type="advanced:Placeholder" xmi:id="_V_QTGzNbEfGzMtHf8ojVzQ" elementId="org.eclipse.ui.views.ContentOutline" ref="_V_MBpjNbEfGzMtHf8ojVzQ" closeable="true">
@@ -64,8 +63,8 @@
                   </children>
                 </children>
               </children>
-              <children xsi:type="basic:PartSashContainer" xmi:id="_V_QTHDNbEfGzMtHf8ojVzQ" containerData="5039" selectedElement="_V_QTHTNbEfGzMtHf8ojVzQ" horizontal="true">
-                <children xsi:type="basic:PartStack" xmi:id="_V_QTHTNbEfGzMtHf8ojVzQ" elementId="org.eclipse.ui.console.ConsoleViewMStack" containerData="6000" selectedElement="_V_QTHjNbEfGzMtHf8ojVzQ">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_V_QTHDNbEfGzMtHf8ojVzQ" containerData="5609" selectedElement="_V_QTIjNbEfGzMtHf8ojVzQ" horizontal="true">
+                <children xsi:type="basic:PartStack" xmi:id="_V_QTHTNbEfGzMtHf8ojVzQ" elementId="org.eclipse.ui.console.ConsoleViewMStack" containerData="2503" selectedElement="_V_QTHjNbEfGzMtHf8ojVzQ">
                   <children xsi:type="advanced:Placeholder" xmi:id="_V_QTHjNbEfGzMtHf8ojVzQ" elementId="org.eclipse.ui.console.ConsoleView" ref="_V_MBoDNbEfGzMtHf8ojVzQ" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:General</tags>
@@ -83,7 +82,9 @@
                     <tags>categoryTag:Vitis</tags>
                   </children>
                 </children>
-                <children xsi:type="basic:PartStack" xmi:id="_V_QTIjNbEfGzMtHf8ojVzQ" elementId="com.xilinx.sdk.targetmanager.ui.TargetManagementViewMStack" toBeRendered="false" containerData="4000">
+                <children xsi:type="basic:PartStack" xmi:id="_V_QTIjNbEfGzMtHf8ojVzQ" elementId="com.xilinx.sdk.targetmanager.ui.TargetManagementViewMStack" containerData="7497" selectedElement="_nUC6UEgEEfGF4Iq7PUQibQ">
+                  <tags>Terminal</tags>
+                  <tags>active</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_V_QTIzNbEfGzMtHf8ojVzQ" elementId="com.xilinx.sdk.targetmanager.ui.TargetManagementView" toBeRendered="false" ref="_V_MBpDNbEfGzMtHf8ojVzQ" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:Vitis</tags>
@@ -91,6 +92,10 @@
                   <children xsi:type="advanced:Placeholder" xmi:id="_V_QTJDNbEfGzMtHf8ojVzQ" elementId="org.eclipse.ui.views.ProgressView" toBeRendered="false" ref="_V_MBpTNbEfGzMtHf8ojVzQ" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:General</tags>
+                  </children>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_nUC6UEgEEfGF4Iq7PUQibQ" elementId="org.eclipse.tm.terminal.view.ui.TerminalsView" ref="_nUCTQEgEEfGF4Iq7PUQibQ" closeable="true">
+                    <tags>View</tags>
+                    <tags>categoryTag:Terminal</tags>
                   </children>
                 </children>
               </children>
@@ -385,9 +390,21 @@
       </children>
     </children>
     <sharedElements xsi:type="advanced:Area" xmi:id="_V_FT8DNbEfGzMtHf8ojVzQ" elementId="org.eclipse.ui.editorss" selectedElement="_V_FT8TNbEfGzMtHf8ojVzQ">
-      <children xsi:type="basic:PartStack" xmi:id="_V_FT8TNbEfGzMtHf8ojVzQ" elementId="org.eclipse.e4.primaryDataStack">
+      <children xsi:type="basic:PartStack" xmi:id="_V_FT8TNbEfGzMtHf8ojVzQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_uudi4ETiEfGPRa0xkJRHSw">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
+        <children xsi:type="basic:Part" xmi:id="_uudi4ETiEfGPRa0xkJRHSw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="main.c" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; partName=&quot;main.c&quot; title=&quot;main.c&quot; tooltip=&quot;Zynq_musicPlayer_vitis/src/main.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Zynq_musicPlayer_vitis/src/main.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;4155&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_wufg8ETiEfGPRa0xkJRHSw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="audio.c" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;audio.c&quot; partName=&quot;audio.c&quot; title=&quot;audio.c&quot; tooltip=&quot;Zynq_musicPlayer_vitis/src/audio/audio.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Zynq_musicPlayer_vitis/src/audio/audio.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;288&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
+        </children>
       </children>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_V_KzgDNbEfGzMtHf8ojVzQ" elementId="com.xilinx.ide.projectExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Explorer" iconURI="platform:/plugin/com.xilinx.ide.application.ui/icons/project_explorer.png" tooltip="" closeable="true">
@@ -396,8 +413,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;1&quot; org.eclipse.cdt.ui.cview.groupincludes=&quot;false&quot; org.eclipse.cdt.ui.cview.groupmacros=&quot;false&quot; org.eclipse.cdt.ui.editor.CUChildren=&quot;true&quot;>&#xD;&#xA;&lt;lastRecentlyUsedFilters/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:Vitis</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_WEZ40DNbEfGzMtHf8ojVzQ" elementId="com.xilinx.ide.projectExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -405,12 +420,18 @@
       <menus xsi:type="menu:PopupMenu" xmi:id="_XEzl4DNbEfGzMtHf8ojVzQ" elementId="com.xilinx.ide.projectExplorer#PopupMenu">
         <tags>menuContribution:popup</tags>
       </menus>
+      <menus xsi:type="menu:PopupMenu" xmi:id="_MLLrIETZEfGPRa0xkJRHSw" elementId="com.xilinx.ide.projectExplorer#PopupMenu">
+        <tags>menuContribution:popup</tags>
+      </menus>
+      <menus xsi:type="menu:PopupMenu" xmi:id="_KyDHMEgJEfGF4Iq7PUQibQ" elementId="com.xilinx.ide.projectExplorer#PopupMenu">
+        <tags>menuContribution:popup</tags>
+      </menus>
       <toolbar xmi:id="_WEZ40TNbEfGzMtHf8ojVzQ" elementId="com.xilinx.ide.projectExplorer"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_V_LakDNbEfGzMtHf8ojVzQ" elementId="com.xilinx.sdx.assistant.assistantView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Assistant" iconURI="platform:/plugin/com.xilinx.sdx.assistant/icons/assistant_view.png" tooltip="Assistant to manage Scout project setup, builds, and reports." closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="com.xilinx.sdx.assistant.view.SDXAssistantView"/>
       <persistedState key="originalCompatibilityViewBundle" value="com.xilinx.sdx.assistant"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view AssistantView.EXPANSION=&quot;Zynq_musicPlayer_vitis_system&quot;/>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view AssistantView.EXPANSION=&quot;Zynq_musicPlayer_vitis_system,Zynq_musicPlayer_vitis_system/Zynq_musicPlayer_vitis&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:Vitis</tags>
       <menus xmi:id="_WRmAQDNbEfGzMtHf8ojVzQ" elementId="com.xilinx.sdx.assistant.assistantView">
@@ -724,6 +745,20 @@
       <persistedState key="originalCompatibilityViewBundle" value="com.xilinx.sdx.aie.debug"/>
       <tags>View</tags>
       <tags>categoryTag:Vitis</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_nUCTQEgEEfGF4Iq7PUQibQ" elementId="org.eclipse.tm.terminal.view.ui.TerminalsView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Terminal" iconURI="platform:/plugin/org.eclipse.tm.terminal.view.ui/icons/eview16/terminal_view.gif" tooltip="" closeable="true">
+      <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.tm.terminal.view.ui"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.eclipse.tm.terminal.view.ui.view.TerminalsView"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view>&#xD;&#xA;&lt;terminalConnections id=&quot;org.eclipse.tm.terminal.view.ui.TerminalsView&quot;>&#xD;&#xA;&lt;connection delegateId=&quot;org.eclipse.tm.terminal.connector.serial.launcher.serial&quot; encoding=&quot;ISO-8859-1&quot; serial.baudrate=&quot;115200&quot; serial.databits=&quot;8&quot; serial.device=&quot;COM5&quot; serial.flowcontrol=&quot;None&quot; serial.parity=&quot;None&quot; serial.stopbits=&quot;1&quot; timeout=&quot;5&quot; tm.terminal.connector.id=&quot;org.eclipse.tm.terminal.connector.serial.SerialConnector&quot;/>&#xD;&#xA;&lt;/terminalConnections>&#xD;&#xA;&lt;/view>"/>
+      <tags>View</tags>
+      <tags>categoryTag:Terminal</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
+      <menus xmi:id="_nUNSYEgEEfGF4Iq7PUQibQ" elementId="org.eclipse.tm.terminal.view.ui.TerminalsView">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_nUNSYUgEEfGF4Iq7PUQibQ" elementId="org.eclipse.tm.terminal.view.ui.TerminalsView"/>
     </sharedElements>
     <trimBars xmi:id="_V09HkzNbEfGzMtHf8ojVzQ" elementId="org.eclipse.ui.main.toolbar" contributorURI="platform:/plugin/org.eclipse.ui.workbench">
       <children xsi:type="menu:ToolBar" xmi:id="_WACWMDNbEfGzMtHf8ojVzQ" elementId="group.file" toBeRendered="false">
@@ -3332,6 +3367,8 @@
   <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <addons xmi:id="_V1vxwDNbEfGzMtHf8ojVzQ" elementId="com.xilinx.sdk.targetmanager.ui.addon.view" contributionURI="bundleclass://com.xilinx.sdk.targetmanager/com.xilinx.sdk.targetmanager.ui.ViewVisibilityAdapterAddon"/>
+  <addons xmi:id="_I2pYQETZEfGPRa0xkJRHSw" elementId="com.xilinx.sdk.targetmanager.ui.addon.view" contributionURI="bundleclass://com.xilinx.sdk.targetmanager/com.xilinx.sdk.targetmanager.ui.ViewVisibilityAdapterAddon"/>
+  <addons xmi:id="_g3Fd8UgEEfGF4Iq7PUQibQ" elementId="com.xilinx.sdk.targetmanager.ui.addon.view" contributionURI="bundleclass://com.xilinx.sdk.targetmanager/com.xilinx.sdk.targetmanager.ui.ViewVisibilityAdapterAddon"/>
   <categories xmi:id="_V1LxEDNbEfGzMtHf8ojVzQ" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_V1LxETNbEfGzMtHf8ojVzQ" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
   <categories xmi:id="_V1LxEjNbEfGzMtHf8ojVzQ" elementId="org.eclipse.ui.category.edit" name="Edit"/>

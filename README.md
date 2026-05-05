@@ -23,8 +23,8 @@ The system allows a user to transfer `.wav` audio files from a PC to the Zynq bo
 ---
 
 ## Technologies Used
-- Xilinx Vivado (hardware design)
-- Xilinx Vitis (embedded software)
+- Xilinx Vivado 2023.1.0 (hardware design)
+- Xilinx Vitis 2023.1.0 (embedded software)
 - lwIP TCP/IP stack
 - LabWindows/CVI (PC GUI application)
 
@@ -38,18 +38,32 @@ The system allows a user to transfer `.wav` audio files from a PC to the Zynq bo
 ---
 
 ## System Overview
-- PC (LabWindows/CVI) sends control commands and audio files  
+- PC (LabWindows/CVI) sends control commands and transfer audio files via FTP 
 - Zynq FPGA receives files and performs real-time audio playback  
-- Audio output through on-board audio interface (I2S)  
+- Audio output through on-board audio codec and speaker using I2S 
+
+---
+
+## Functional Block Diagram
+
+![Functional Block Diagram](images/Functional_Block_Diagram.png)
+
+### Functional Block Diagram Description
+The Zynq FPGA is the central processing unit. It receives inputs from physical buttons and controls LED and Button. 
+
+PC application sends control commands using TCP/IP and transfer audio files via FTP.
+
+Then, the FPGA receives files and save to SD Card then playing music on the speaker.
+
 
 ---
 
 ## Hardware Block Design
 
-![Zynq Block Design](FPGA/Zynq_Block_Design.png)
+![Zynq Hardware Block Design](images/Zynq_Block_Design.png)
 
 
-### Block Diagram Description
+### Hardware Block Design Description
 The hardware design is centered around the Zynq Processing System (PS), which controls the overall system and runs the embedded software.
 
 - The **AXI DMA** transfers audio data from system memory to the audio interface.
@@ -59,6 +73,16 @@ The hardware design is centered around the Zynq Processing System (PS), which co
 - Clocking and reset logic ensure proper synchronization across all components.
 
 The processor also integrates lwIP networking to receive control commands and audio files from the PC over Ethernet. This architecture enables efficient, real-time audio playback by offloading data transfer to the DMA while the processor handles control and networking tasks.
+
+---
+
+## PC Manual Panel GUI
+
+![Zynq Block Design](images/PC_Manual_Panel_GUI.png)
+
+
+### PC Manual Panel GUI Description
+The manual panel provides a PC interface for communicating with the FPGA over ethernet. On the left, TCP connection status allows connection management and status monitoring, which is useful for debugging and optional command control. The LED control section allows the user to remotely turn LEDs on and off through commands sent to the FPGA board. The button status panel displays the real-time state of physical buttons on the Zynq board, allowing verification of GPIO inputs. On the Right, we can adjust the volume bar to adjust music volume, we can also click on the “Change Directory” button to change different music folder to play different .wav audio music. Overall, this manual panel enables real-time control and testing of the embedded system from the PC.
 
 ---
 
